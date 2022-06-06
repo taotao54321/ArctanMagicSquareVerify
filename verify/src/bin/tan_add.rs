@@ -1,3 +1,5 @@
+//! tan の加法定理を使う。
+
 use anyhow::{ensure, Context};
 use itertools::assert_equal;
 use num_traits::{One as _, Signed as _, Zero as _};
